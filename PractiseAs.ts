@@ -58,6 +58,23 @@
 
 //###################################################
 
+// 5. Give the function and the event listener below, we get an error message 
+// saying 'Argument of type 'string' is not assignable to parameter of type 'number' 
+// How would we fix this?
+
+// function addNumbers(a: number,b: number) {
+//     screen.innerHTML = (a + b).toString()
+// }
+
+// button.addEventListener('click', () => 
+//     addNumbers(parseInt(firstInput.value), parseInt(secondInput.value)))
+
+//NOTE: Here the input is coming to us with the type of string, even 
+// though it is a number. Bc we set the function parameters to only accept 
+// numbers, we need to use parseInt() on the input number string in order 
+// to change it into a type that the function will accept (keeping in mind
+// that it will the be changed back into a string to work with screen.innerHTML)
+//###################################################
 
 
 //!VOCAB!//

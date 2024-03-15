@@ -40,6 +40,24 @@
 // that this const will always refer to an HTML input element.
 //###################################################
 
+// 4. Given the following function that works as a calculator to 
+// display two added numbers on the screen, assign the paramters the 
+// correct type and make another modificaiton to resolve the resulting error.
+
+// export const screen = document.querySelector('.screen')
+
+// function addNumbers(a:number, b:number) {
+//     screen.innerHTML = (a + b).toString()     
+// }
+
+//NOTE: Here we can assign a number type to the function parameters, 
+// but an error will show saying that type 'number' is not assignable to
+// type 'string'. This means that we have to change the sum of a and b
+//so that it can be assigned to screen.innerHTML, which takes a string, 
+// and we do that with the JS .toString()
+
+//###################################################
+
 
 
 //!VOCAB!//

@@ -25,3 +25,15 @@
 // const secondInput = document.querySelector('#second-input')
 
 //###################################################
+
+// 4. Given the following function that works as a calculator to 
+// display two added numbers on the screen, assign the paramters the 
+// correct type and make another modificaiton to resolve the resulting error.
+
+// export const screen = document.querySelector('.screen')
+
+// function addNumbers(a,b) {
+//     screen.innerHTML = a + b     
+// }
+
+//###################################################

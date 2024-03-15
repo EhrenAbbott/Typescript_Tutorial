@@ -12,6 +12,19 @@
 // would create an error.
 //###################################################
 
+// 2. What would you have to add to the const below in 
+// order for it to work in the function?
+
+// export const screen = document.querySelector('.screen')
+
+// function addNumbers(a,b) {
+//     screen.innerHTML = a + b     
+// }
+
+//NOTE: The const must be exported (even though it is only being used
+// in the same file) bc it is being modified below. This is a *TS FEATURE*!
+//###################################################
+
 
 
 

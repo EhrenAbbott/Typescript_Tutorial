@@ -8,3 +8,13 @@
 
 //###################################################
 
+// 2. What would you have to add to the const below in 
+// order for it to work in the function?
+
+// const screen = document.querySelector('.screen')
+
+// function addNumbers(a,b) {
+//     screen.innerHTML = a + b     
+// }
+
+//###################################################

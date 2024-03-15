@@ -18,3 +18,10 @@
 // }
 
 //###################################################
+
+// 3. What do you have to add to the following input element
+// in order for it to function properly?
+
+// const secondInput = document.querySelector('#second-input')
+
+//###################################################

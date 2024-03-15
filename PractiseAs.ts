@@ -25,6 +25,20 @@
 // in the same file) bc it is being modified below. This is a *TS FEATURE*!
 //###################################################
 
+// 3. What do you have to add to the following input element
+// in order for it to function properly?
+
+// const secondInput = document.querySelector('#second-input') as HTMLInputElement
+
+
+//NOTE: Here, if you used secondInput.value you would get an error saying "property 'value' 
+// does not exist on type 'Element." Most elements don't actually have a value property,
+// and all TS knows is that we used a query selector to pick an element, but it doesn't
+// know exactly know which element it is bc TS doesn't look at our HTML 
+// to see what the id 'second-input' is attached to. Bc of this, we have to 
+// explicitly 'typecast' it with 'as HTMLInputElement', which means we are telling it 
+// that this const will always refer to an HTML input element.
+//###################################################
 
 
 

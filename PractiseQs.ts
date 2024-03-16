@@ -48,5 +48,9 @@
 
 // button.addEventListener('click', () => addNumbers(firstInput.value, secondInput.value))
 
+//###################################################
+
+// 6. Assign a type to a variable without a value. 
+//    Why would you want to do this?
 
 //###################################################

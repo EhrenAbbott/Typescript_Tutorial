@@ -10,6 +10,8 @@
 // the variable as another type later on, a red squiggly woudl appear to indicate 
 // and error. So you could not later say    number = "name"    as it
 // would create an error.
+// - An important distinction between JS and TS is that the TS type number 
+// applied to *BOTH* integers and floats (decimals).
 //###################################################
 
 // 2. What would you have to add to the const below in 
@@ -74,6 +76,18 @@
 // numbers, we need to use parseInt() on the input number string in order 
 // to change it into a type that the function will accept (keeping in mind
 // that it will the be changed back into a string to work with screen.innerHTML)
+
+//###################################################
+
+// 6. Assign a type to a variable without a value. 
+//    Why would you want to do this?
+
+// let isOpen : boolean
+// This could be used if we cant to create a variable that at the moment
+// does not have a value but in the future will have a value that is subject to
+// change, will always remaining a boolean (so it could fluctuate between true and false 
+// but will never be a string, for example)
+
 //###################################################
 
 
@@ -91,9 +105,18 @@
 //change your code until you want to. 
 // - Primarily designed for the development for large apps, and it transcompiles to JS
 // (therefore, TS is also a compiler, as it takes the code from a .ts file and compiles it to .js )
+// - After TS compiles into JS, the TS features will still technically exist, but visually
+// the code will look like it has reverted to plain JS.
 // - It must compile to JS because browsers cannot execute TS
 // - Writing code with TS types enables us to write cleaner code with fewer errors (as a considerable 
 // number of errors come from mistakes surrounding types)
 // - Eliminates the need to include  notes to fellow developers stating, for example, that a certain 
 // function can only take strings.
 // - Can be used for client side and server side (AKA frontend and backend)
+
+// type inference: 
+// - A feature that TS has that allows it to deduce which type you have 
+// for a certain variable without having to explicitly state it; it does not always 
+// not it (or always do it accurately), so that's why it can still 
+// be good to explicitly state the type. You know that it has not 
+// assigned a type when you hover over a variable and it displays the type as 'any'

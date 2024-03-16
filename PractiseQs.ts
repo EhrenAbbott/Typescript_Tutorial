@@ -54,3 +54,13 @@
 //    Why would you want to do this?
 
 //###################################################
+
+// 7. Take the following const and assign the object type to it, 
+// and assign types to the values as well.
+
+// const you = {
+//     userName: 'Bobby',
+//     isReturning: true,
+//  }
+
+//###################################################

@@ -6,7 +6,7 @@
 // let firstName: string = 'Angela'
 // let busy: boolean = true
 
-//NOTE: Assigning a type here means that if you try to reassign 
+// NOTE: Assigning a type here means that if you try to reassign 
 // the variable as another type later on, a red squiggly woudl appear to indicate 
 // and error. So you could not later say    number = "name"    as it
 // would create an error.
@@ -87,6 +87,31 @@
 // does not have a value but in the future will have a value that is subject to
 // change, will always remaining a boolean (so it could fluctuate between true and false 
 // but will never be a string, for example)
+
+//###################################################
+
+// 7. Take the following const and assign the object type to it, 
+// and assign types to the values as well.
+
+// const you: {
+//     userName : string;
+//     isReturning: boolean
+// } = {
+//    userName: 'Bobby',
+//    isReturning: true,
+// }
+
+//NOTE: if you only assign the object type to the const, you will 
+// get an error when trying to retrieve the values of any fo the keys; 
+// this is because you need to specify the types of the keys
+// before you can work with them (assumign the object has already been 
+// assigned its type )
+// - It is important to notice the difference in syntac between as JS object 
+// and a TS object; the key/values end in a semicolon in TS, whereas in JS
+// they end in a comma. 
+// - It would be possible to set, for example, the userName type to 'Bobby',
+// a specific string instead of a type, but this would mean that the value
+// for that key would literally always have to be the string 'Bobby'
 
 //###################################################
 

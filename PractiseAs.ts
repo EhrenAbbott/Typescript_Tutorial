@@ -146,6 +146,47 @@
 
 //###################################################
 
+//9. Assign the correct types to the following (including 
+// any nested variables):
+
+// const reviews : { 
+//     name : string; 
+//     stars : number; 
+//     loyaltyUser : boolean; 
+//     date : string;
+// }[] = [
+//     {
+//         name: 'Sheia',
+//         stars: 5,
+//         loyaltyUser: true,
+//         date: '01-04-2021'
+//     },
+//     {
+//         name: 'Andrzej',
+//         stars: 3,
+//         loyaltyUser: false,
+//         date: '28-03-2021'
+//     },
+//     {
+//         name: 'Omar',
+//         stars: 4,
+//         loyaltyUser: true,
+//         date: '27-03-2021'
+//     },
+// ]
+
+// NOTE: Keep in mind that we are working with mutliple 
+// different types inside an object inside an array. So the way 
+// we start assigning types is similiar to #8, but whereas
+// string[] denotes a primitive type inside a structural type, 
+// here we are working with a structural type inside a structural type, 
+// so we can't just say object[], as using the word 'object' would not give us the 
+// opportunity to assign types to the keys that that object contains. 
+// Instead, we woudl have to use {}[] to start, that way we can use the
+// curly brackets to contain the types of the keys.
+
+//###################################################
+
 
 //!VOCAB!//
 

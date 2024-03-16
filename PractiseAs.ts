@@ -115,6 +115,37 @@
 
 //###################################################
 
+//8. In the following object where the last key takes
+// and array, assigned it the correct TS type.
+
+// const you: {
+//     firstName: string;
+//     lastName: string;
+//     isReturning: boolean;
+//     age: number;
+//     stayedAt: string[]
+// } = {
+//     firstName: 'Bobby',
+//     lastName: 'Brown',
+//     isReturning: true,
+//     age: 35,
+//     stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow']
+// }
+
+// NOTE: In JS an array is technically a special type of object 
+// (typeof will return 'object). However, in TS there is an actual
+// array type.
+// -It is slightly counterintuitive, but you can just say 'array'
+// to assign a TS type, as you can with string, boolean etc. Instead,
+// you have to specificy the type that will fill the array, followed by 
+// the open an close brackets. This would be the same way you assign
+// the array type outside of an object.
+// -Keep in mind that saying string[] as the type means that it can ONLY
+// accept strings in the array; accepting different types in the array 
+// would require a union type (covered later)
+
+//###################################################
+
 
 //!VOCAB!//
 

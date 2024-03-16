@@ -64,3 +64,21 @@
 //  }
 
 //###################################################
+
+//8. In the following object where the last key takes
+// and array, assigned it the correct TS type.
+
+// const you: {
+//     firstName: string;
+//     lastName: string;
+//     isReturning: boolean;
+//     age: number;
+// } = {
+//     firstName: 'Bobby',
+//     lastName: 'Brown',
+//     isReturning: true,
+//     age: 35,
+//     stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow']
+// }
+
+//###################################################
